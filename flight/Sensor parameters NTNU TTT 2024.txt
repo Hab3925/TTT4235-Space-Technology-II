@@ -1,0 +1,58 @@
+# analogue accelerometers
+a_x_sens = -2/51 # Sensitivity [V/gee]
+a_x_offset = 137/51 # Offset [V]. Nominal value: 2.5 V
+a_x_max = 50 # Sensor limit in the x-direction [gee]
+
+a_y_sens = 5.5/51 # Sensitivity [V/gee]
+a_y_offset = 137.5/51 # Offset [V]. Nominal value: 2.5 V
+a_y_max = 20 # Sensor limit in the y-direction [gee]
+
+
+# External and internal temperature sensors
+temp_ext_gain = 5.7  # Amplification of the sensor output [-].                   # OK
+temp_ext_sens = 10.0  # Sensitivity of the sensor itself, sans gain [mV/K]        # OK
+temp_ext_offset = 0 # Sensor output at 0 degrees celsius (before gain) [V] # ?? might need calibration
+temp_int_gain = 5.7  # Amplification of the sensor output [-].                   # OK
+temp_int_sens = 10.0  # Sensitivity of the sensor itself, sans gain [mV/K]        # OK
+temp_int_offset = 0 # Sensor output at 0 degrees celsius (before gain) [V] # ?? might need calibration
+
+
+# NTC
+R_fixed = 1e4  # [ohm]
+R_ref = 1e4  # [ohm]
+A_1 = 3.354016e-3  # [1/K]
+B_1 = 2.569850e-4  # [1/K]
+C_1 = 2.620131e-6  # [1/K]
+D_1 = 6.383091e-8  # [1/K]
+
+
+# IMU
+a_x_imu_sens = 7.32e-4  # Sensitivity [gee/LSB]
+a_y_imu_sens = 7.32e-4  # Sensitivity [gee/LSB]
+a_z_imu_sens = 7.32e-4  # Sensitivity [gee/LSB]
+a_x_imu_offset = 0  # Output at 0 gee [signed integer bit value]
+a_y_imu_offset = 0  # Output at 0 gee [signed integer bit value]
+a_z_imu_offset = 0  # Output at 0 gee [signed integer bit value]
+
+ang_vel_x_sens = 1.94444444444444*10**(-4)  # Sensitivity [Hz/LSB]
+ang_vel_y_sens = 1.94444444444444*10**(-4)  # Sensitivity [Hz/LSB]
+ang_vel_z_sens = 1.94444444444444*10**(-4)  # Sensitivity [Hz/LSB]
+ang_vel_x_offset = 0  # Output at 0 dps [signed integer bit value]
+ang_vel_y_offset = 0  # Output at 0 dps [signed integer bit value]
+ang_vel_z_offset = 0  # Output at 0 dps [signed integer bit value]
+
+mag_x_sens = 1.4e-2  # Sensitivity [uT/LSB]
+mag_y_sens = 1.4e-2  # Sensitivity [uT/LSB]
+mag_z_sens = 1.4e-2  # Sensitivity [uT/LSB]
+mag_x_offset = 0  # Output at 0 gauss [signed integer bit value]
+mag_y_offset = 0  # Output at 0 gauss [signed integer bit value]
+mag_z_offset = 0  # Output at 0 gauss [signed integer bit value]
+
+
+# Power sensor
+voltage_sensor_gain = 561 / (1490 + 561)  # As a fraction, not in dB!    OK
+R_current_sensor = 22e-3  # [ohm]                             OK
+
+
+# Payload
+a7_occupied = False  # [bool]

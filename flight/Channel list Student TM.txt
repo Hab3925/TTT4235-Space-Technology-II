@@ -1,0 +1,57 @@
+analogue_channels = {
+    'A5_acc_y (-)': 'a_y',
+    'A4_acc_x (-)': 'a_x',
+    'A7_battery_voltage (-)': 'a7',
+    'A1_temp_external (-)': 'temp_ext',
+    'A0_temp_internal (-)': 'temp_int',
+    'A3_photosensor (-)': 'light',
+    'A6_magnetometer (-)': 'mag',
+    'A2_pressure (-)': 'pressure',
+    }
+
+temp_array_channels = {
+    'array_temp0 (-)': 'temp_array_0',
+    'array_temp1 (-)': 'temp_array_1',
+    'array_temp2 (-)': 'temp_array_2',
+    'array_temp3 (-)': 'temp_array_3',
+    'array_temp4 (-)': 'temp_array_4',
+    'array_temp5 (-)': 'temp_array_5',
+    'array_temp6 (-)': 'temp_array_6',
+    'array_temp7 (-)': 'temp_array_7',
+    'array_temp8 (-)': 'temp_array_8',
+    'array_temp9 (-)': 'temp_array_9',
+    }
+
+power_sensor_channels = {
+    'array_voltage (-)': 'voltage',
+    'array_current (-)': 'current',
+    }
+
+gps_channels = {
+    'gps_satellites (-)': 'satellites',
+    'gps_Longitude (-)': 'long',
+    'gps_Latitude (-)': 'lat',
+    'gps_altitude (-)': 'height',
+    'gps_vx (-)': 'v_x',
+    'gps_vy (-)': 'v_y',
+    'gps_vz (-)': 'v_z',
+    'gps_TOW (-)': 't_gps',
+    'gps_GDOP (-)': 'gdop',
+    }
+
+imu_channels = {
+    'imu_Ax (-)': 'a_x_imu',
+    'imu_Ay (-)': 'a_y_imu',
+    'imu_Az (-)': 'a_z_imu',
+    'imu_Gx (-)': 'ang_vel_x',
+    'imu_Gy (-)': 'ang_vel_y',
+    'imu_Gz (-)': 'ang_vel_z',
+    'imu_Mx (-)': 'mag_x',
+    'imu_My (-)': 'mag_y',
+    'imu_Mz (-)': 'mag_z',
+    }
+
+misc_channels = {
+    'Time (s)': 't',
+    'main_counter (-)': 'framecounter',
+    }

@@ -1,0 +1,54 @@
+analogue_channels = {
+    'P0/Main stream/pressure ()': 'pressure',
+    'P0/Main stream/optical ()': 'light',
+    'P0/Main stream/battery_voltage ()': 'a7',
+    'P0/Main stream/external_temperature ()': 'temp_ext',
+    'P0/Main stream/internal_temperature ()': 'temp_int',
+    'P0/Main stream/accelerometer_x ()': 'a_x',
+    'P0/Main stream/accelerometer_y ()': 'a_y',
+    'P0/Main stream/magnetometer ()': 'mag',
+    }
+
+temp_array_channels = {
+    'P0/Temp array/a_t0 ()': 'temp_array_0',
+    'P0/Temp array/a_t1 ()': 'temp_array_1',
+    'P0/Temp array/a_t2 ()': 'temp_array_2',
+    'P0/Temp array/a_t3 ()': 'temp_array_3',
+    'P0/Temp array/a_t4 ()': 'temp_array_4',
+    'P0/Temp array/a_t5 ()': 'temp_array_5',
+    'P0/Temp array/a_t6 ()': 'temp_array_6',
+    'P0/Temp array/a_t7 ()': 'temp_array_7',
+    'P0/Temp array/a_t8 ()': 'temp_array_8',
+    'P0/Temp array/a_t9 ()': 'temp_array_9',
+    }
+
+power_sensor_channels = {
+    'P0/Temp array/array_voltage ()': 'voltage',
+    'P0/Temp array/array_current ()': 'current',
+    }
+
+gps_channels = {
+    'P0/GPS/IMU/GPS_satellites ()': 'satellites',
+    'P0/GPS/IMU/GPS_longitude ()': 'long',
+    'P0/GPS/IMU/GPS_latitude ()': 'lat',
+    'P0/GPS/IMU/GPS_altitude ()': 'height',
+    'P0/GPS/IMU/GPS_speed ()': 'speed',
+    'P0/GPS/IMU/GPS_GDOP ()': 'gdop',
+    }
+
+imu_channels = {
+    'P0/GPS/IMU/IMU_Ax ()': 'a_x_imu',
+    'P0/GPS/IMU/IMU_Ay ()': 'a_y_imu',
+    'P0/GPS/IMU/IMU_Az ()': 'a_z_imu',
+    'P0/GPS/IMU/IMU_Gx ()': 'ang_vel_x',
+    'P0/GPS/IMU/IMU_Gy ()': 'ang_vel_y',
+    'P0/GPS/IMU/IMU_Gz ()': 'ang_vel_z',
+    'P0/GPS/IMU/IMU_Mx ()': 'mag_x',
+    'P0/GPS/IMU/IMU_My ()': 'mag_y',
+    'P0/GPS/IMU/IMU_Mz ()': 'mag_z',
+    }
+
+misc_channels = {
+    'Time (s)': 't',
+    'P0/Main stream/main_counter ()': 'framecounter',
+    }
